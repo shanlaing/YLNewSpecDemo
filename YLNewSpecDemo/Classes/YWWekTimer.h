@@ -28,5 +28,9 @@ typedef void (^HWTimerHandler)(id userInfo);
                                    userInfo:(id)userInfo
                                     repeats:(BOOL)repeats;
 
++ (NSTimer *)YW_scheduledTimerWithTimeIntervalWithSomeBody:(NSTimeInterval)interval
+                                      block:(HWTimerHandler)block
+                                   userInfo:(id)userInfo
+                                    repeats:(BOOL)repeats;
 @end
 

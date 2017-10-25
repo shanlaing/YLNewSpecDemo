@@ -69,6 +69,13 @@
                                         repeats:repeats];
 }
 
++ (NSTimer *)YW_scheduledTimerWithTimeIntervalWithSomeBody:(NSTimeInterval)interval
+                                                     block:(HWTimerHandler)block
+                                                  userInfo:(id)userInfo
+                                                   repeats:(BOOL)repeats {
+    return nil;
+}
+
 + (void)_timerBlockInvoke:(NSArray*)userInfo {
     HWTimerHandler block = userInfo[0];
     id info = nil;
