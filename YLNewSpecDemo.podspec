@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLNewSpecDemo"
-  s.version      = "0.0.1"
+  s.version      = "2.0.0"
   s.summary      = "A timer that prevents loops"
 
-  s.description  = <<-DESC "可以防止VC 引用 NSTimer 时 无法释放"
+  s.description  = <<-DESC "可以防止VC 引用 NSTimer 时 无法释放 q然互加上一个 test 能验证新的笨笨发布"
                    DESC
 
   s.homepage     = "https://github.com/shanlaing/YLNewSpecDemo"

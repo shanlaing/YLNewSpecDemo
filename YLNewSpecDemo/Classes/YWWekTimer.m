@@ -76,6 +76,10 @@
     return nil;
 }
 
+- (void)test {
+    
+}
+
 + (void)_timerBlockInvoke:(NSArray*)userInfo {
     HWTimerHandler block = userInfo[0];
     id info = nil;

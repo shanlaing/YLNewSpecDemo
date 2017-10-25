@@ -32,5 +32,7 @@ typedef void (^HWTimerHandler)(id userInfo);
                                       block:(HWTimerHandler)block
                                    userInfo:(id)userInfo
                                     repeats:(BOOL)repeats;
+
+- (void)test;
 @end
 
